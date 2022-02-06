@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: rgb(30, 30, 30);
+  color: rgb(230, 230, 230);
+}
+
+input {
+  border: none;
+  height: 30px;
+  padding: 5px;
+}

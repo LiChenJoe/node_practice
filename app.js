@@ -11,7 +11,7 @@ app.get("/", (req,res)=>{
 
 app.post("/result", (req,res)=>{
     let {Name, Date} =req.body;
-    res.send(`${Name}, Thank you for sharing.`);
+    res.sendFile(__dirname+"/result.html");
 })
 
 app.listen(3000, ()=>{
